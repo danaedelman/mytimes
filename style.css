@@ -14,18 +14,29 @@ header {
 
 }
 
-nav, li, a{
-  display: inline-flex;
+
+nav, li, a {
+
+  display: inline-block;
   padding: 20px 10px;
   color: black;
 
 }
 
-.logo {
-  color: MediumAquamarine;
+.logo  {
+  /* color: MediumAquamarine; */
   display: flex;
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+
+}
+
+.logo span  {
+  color: MediumAquamarine;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
 
 }
